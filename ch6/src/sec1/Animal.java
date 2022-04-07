@@ -9,10 +9,10 @@ public class Animal {
 	
 	
 	Animal() {
-		this("µ¿¹°");
+		this("ë™ë¬¼");
 	}
 	Animal(String name) {
-		this(name,"Æ÷À¯·ù");
+		this(name,"í¬ìœ ë¥˜");
 	}
 	Animal(String name, String type) {
 		this(name,type,4);
@@ -35,13 +35,13 @@ public class Animal {
 		this.speed = speed;
 	}
 	public void running() {
-		System.out.println("µ¿¹°ÀÌ ´Ş¸³´Ï´Ù");
+		System.out.println("ë™ë¬¼ì´ ë‹¬ë¦½ë‹ˆë‹¤");
 	}
 	public void running(String name) {
-		System.out.println(name+"ÀÌ/°¡ ´Ş¸³´Ï´Ù");
+		System.out.println(name+"ì´/ê°€ ë‹¬ë¦½ë‹ˆë‹¤");
 	}
 	public void running(String name, float speed) {
-		System.out.println(name+"ÀÌ/°¡ "+speed+"km/s·Î ´Ş¸³´Ï´Ù");
+		System.out.println(name+"ì´/ê°€ "+speed+"km/së¡œ ë‹¬ë¦½ë‹ˆë‹¤");
 	}
 	
 	
