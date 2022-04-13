@@ -1,10 +1,7 @@
-package ex;
+package Confirm;
 
-import Confirm.DataAccessObject;
-import Confirm.MySqlDao;
-import Confirm.OracleDao;
-
-public class DaoExample {
+public class DaoEx {
+	
 	public static void dbWork(DataAccessObject dao) {
 		dao.select();
 		dao.insert();
@@ -18,5 +15,4 @@ public class DaoExample {
 		dbWork(new MySqlDao());
 
 	}
-
 }

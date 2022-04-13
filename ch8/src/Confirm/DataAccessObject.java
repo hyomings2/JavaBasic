@@ -1,4 +1,4 @@
-package ex;
+package Confirm;
 
 public interface DataAccessObject{
 	void select();

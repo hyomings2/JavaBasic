@@ -1,8 +1,0 @@
-package sec1;
-
-public class Car {
-
-	private String name,style,company,fuel;
-	private int tire,speed,num,usetime;
-	
-}
